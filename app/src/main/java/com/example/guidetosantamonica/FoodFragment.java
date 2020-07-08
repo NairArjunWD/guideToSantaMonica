@@ -32,9 +32,9 @@ public class FoodFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word("An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.", "Santa Monica Pier", R.drawable.santa_monica_pier));
-        words.add(new Word("One of the most iconic beaches of SoCal stretching 3.5 miles.", "Santa Monica State Beach", R.drawable.santa_monica_state_beach));
-        words.add(new Word("A nice relaxing park located next to the coast where you can stroll and sit under the shade.", "Palisades Park", R.drawable.palisades_park));
+        words.add(new Word("Country style British pub that serves all the local favorites from the UK.", "Ye Olde King's Head", R.drawable.ye_olde_kings_head));
+        words.add(new Word("Best local deli known for their signature overstuffed sandwiches and other deli favorites.", "Bay Cities Italian Deli & Bakery", R.drawable.bay_city_deli));
+        words.add(new Word("Stylish bar in the middle of Downtown Santa Monica.", "The Independence", R.drawable.the_independence));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_food);
 
