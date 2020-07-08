@@ -34,7 +34,7 @@ public class CoastFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word("Santa Monica Pier", "SA", R.drawable.ic_launcher_background));
+        words.add(new Word("200 Santa Monica Pier, Santa Monica, CA 90401", "Santa Monica Pier", R.drawable.santa_monica_pier));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_coast);
 
