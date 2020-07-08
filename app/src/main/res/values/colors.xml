@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#00A7E1</color>
+    <color name="colorPrimaryDark">#2a52be</color>
+    <color name="colorAccent">#abaa95</color>
+
+    <!-- Background color for app -->
+    <color name="background">#abaa95</color>
+
+    <!-- Background color for the Coast category -->
+    <color name="category_coast">#FD8E09</color>
+
+    <!-- Background color for the Food category -->
+    <color name="category_food">#379237</color>
+
+    <!-- Background color for the Shopping category -->
+    <color name="category_shopping">#8800A0</color>
+
+    <!-- Background color for the Recreation category -->
+    <color name="category_recreation">#16AFCA</color>
 </resources>
+
