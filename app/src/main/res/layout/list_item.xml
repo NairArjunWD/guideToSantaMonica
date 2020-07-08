@@ -19,7 +19,7 @@ android:orientation="vertical"
             android:layout_height="match_parent"
 
             android:orientation="vertical"
-            android:padding="16dp">
+            >
 
             <ImageView
                 android:id="@+id/image"
@@ -29,6 +29,7 @@ android:orientation="vertical"
                 android:adjustViewBounds="true"/>
 
             <TextView
+                android:padding="16dp"
                 android:id="@+id/subtitle_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,12 +39,21 @@ android:orientation="vertical"
                 tools:text="Santa Monica Pier" />
 
             <TextView
+                android:paddingLeft="16dp"
                 android:id="@+id/location_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:textColor="@android:color/white"
                 tools:text="200 Santa Monica Pier, Santa Monica, CA 90401" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="end|center_vertical"
+                android:layout_weight="0.1"
+                android:src="@drawable/baseline_map_white_24dp" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

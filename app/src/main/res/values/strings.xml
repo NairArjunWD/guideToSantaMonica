@@ -14,4 +14,6 @@
     <string name="category_recreation">Recreation</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="santa_monica_pier"> An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.</string>
 </resources>
