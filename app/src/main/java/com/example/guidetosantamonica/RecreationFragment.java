@@ -31,9 +31,9 @@ public class RecreationFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word("An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.", "Santa Monica Pier", R.drawable.santa_monica_pier));
-        words.add(new Word("One of the most iconic beaches of SoCal stretching 3.5 miles.", "Santa Monica State Beach", R.drawable.santa_monica_state_beach));
-        words.add(new Word("A nice relaxing park located next to the coast where you can stroll and sit under the shade.", "Palisades Park", R.drawable.palisades_park));
+        words.add(new Word("Located at the Pier, relax with fames, food, and a little shopping.", "Pacific Park", R.drawable.pacific_park));
+        words.add(new Word("Featuring 100+ local marine animals and wildlife species, located at the Pier.", "Heal the Bay Aquarium", R.drawable.heal_the_bay));
+        words.add(new Word("A museum documenting the Cold War with historical archieves, items, and  art.", "The Wende Museum", R.drawable.the_wende_museum));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_recreation);
 

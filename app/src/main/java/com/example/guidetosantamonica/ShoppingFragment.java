@@ -31,9 +31,9 @@ public class ShoppingFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word("An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.", "Santa Monica Pier", R.drawable.santa_monica_pier));
-        words.add(new Word("One of the most iconic beaches of SoCal stretching 3.5 miles.", "Santa Monica State Beach", R.drawable.santa_monica_state_beach));
-        words.add(new Word("A nice relaxing park located next to the coast where you can stroll and sit under the shade.", "Palisades Park", R.drawable.palisades_park));
+        words.add(new Word("The best shopping, dining, and entertainment located next to the beach..", "Downtown Santa Monica", R.drawable.downtown_santa_monica));
+        words.add(new Word("A beautiful outdoor shopping mall containing three levels of stores and restaurants.", "Santa Monica Place", R.drawable.santa_monica_place));
+        words.add(new Word("Nice little souvenir store near the beach.", "Pier Gear", R.drawable.pier_gear));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_shopping);
 
