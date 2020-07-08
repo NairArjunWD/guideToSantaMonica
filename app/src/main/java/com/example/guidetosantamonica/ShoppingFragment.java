@@ -7,58 +7,43 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ShoppingFragment#newInstance} factory method to
+ * Use the {@link ShoppingFragment newInstance} factory method to
  * create an instance of this fragment.
  */
 public class ShoppingFragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
 
     public ShoppingFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ShoppingFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static ShoppingFragment newInstance(String param1, String param2) {
-        ShoppingFragment fragment = new ShoppingFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_shopping, container, false);
+        View rootView = inflater.inflate(R.layout.word_list, container, false);
+
+        //Create an array of words
+        final ArrayList<Word> words = new ArrayList<Word>();
+
+//        words.add("one");
+        words.add(new Word("An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.", "Santa Monica Pier", R.drawable.santa_monica_pier));
+        words.add(new Word("One of the most iconic beaches of SoCal stretching 3.5 miles.", "Santa Monica State Beach", R.drawable.santa_monica_state_beach));
+        words.add(new Word("A nice relaxing park located next to the coast where you can stroll and sit under the shade.", "Palisades Park", R.drawable.palisades_park));
+
+        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_shopping);
+
+        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        // There should be a {@link ListView} with the view ID called list, which is declared in the
+        // word_list.xml layout file.
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setAdapter(adapter);
+
+        return rootView;
     }
 }
