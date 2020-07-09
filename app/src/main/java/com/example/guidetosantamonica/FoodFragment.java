@@ -32,7 +32,7 @@ public class FoodFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word(getResources().getString(R.string.ye_olde_kings_head_description), getResources().getString(R.string.ye_olde_kings_head) , R.drawable.ye_olde_kings_head));
+        words.add(new Word(getResources().getString(R.string.ye_olde_kings_head_description), getResources().getString(R.string.ye_olde_kings_head), R.drawable.ye_olde_kings_head));
         words.add(new Word(getResources().getString(R.string.bay_city_deli_description), getResources().getString(R.string.bay_city_deli), R.drawable.bay_city_deli));
         words.add(new Word(getResources().getString(R.string.the_independence_description), getResources().getString(R.string.the_independence), R.drawable.the_independence));
 

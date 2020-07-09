@@ -16,13 +16,21 @@ public class Word {
         mImageResourceId = imageResourceId;
     }
 
-    public String getmLocation() { return mLocation; }
+    public String getmLocation() {
+        return mLocation;
+    }
 
-    public String getmSubtitle() { return mSubtitle; }
+    public String getmSubtitle() {
+        return mSubtitle;
+    }
 
-    public int getmImageResourceId() { return mImageResourceId; }
+    public int getmImageResourceId() {
+        return mImageResourceId;
+    }
 
-    public boolean hasImage() { return mImageResourceId != NO_IMAGE_PROVIDED; }
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
 
     @Override
     public String toString() {

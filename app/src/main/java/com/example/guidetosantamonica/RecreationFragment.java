@@ -33,7 +33,7 @@ public class RecreationFragment extends Fragment {
 //        words.add("one");
         words.add(new Word(getResources().getString(R.string.pacific_park_description), getResources().getString(R.string.pacific_park), R.drawable.pacific_park));
         words.add(new Word(getResources().getString(R.string.heal_the_bay_description), getResources().getString(R.string.heal_the_bay), R.drawable.heal_the_bay));
-        words.add(new Word( getResources().getString(R.string.the_wende_museum_description), getResources().getString(R.string.the_wende_museum), R.drawable.the_wende_museum));
+        words.add(new Word(getResources().getString(R.string.the_wende_museum_description), getResources().getString(R.string.the_wende_museum), R.drawable.the_wende_museum));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_recreation);
 
