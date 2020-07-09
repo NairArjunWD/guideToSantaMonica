@@ -15,5 +15,45 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="santa_monica_pier"> An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.</string>
+    <!--    CoastFragment Location Descriptions -->
+    <string name="santa_monica_pier_description"> An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.</string>
+    <string name="santa_monica_state_beach_description">One of the most iconic beaches of SoCal stretching 3.5 miles.</string>
+    <string name="palisades_park_description">A nice relaxing park located next to the coast where you can stroll and sit under the shade.</string>
+
+    <!--    CoastFragment Location Names -->
+    <string name="santa_monica_pier"> Santa Monica Pier </string>
+    <string name="santa_monica_state_beach"> Santa Monica State Beach </string>
+    <string name="palisades_park"> Palisades Park </string>
+
+    <!--    FoodFragment Location Descriptions -->
+    <string name="ye_olde_kings_head_description"> Country style British pub that serves all the local favorites from the UK. </string>
+    <string name="bay_city_deli_description">Best local deli known for their signature overstuffed sandwiches and other deli favorites.</string>
+    <string name="the_independence_description">Stylish bar in the middle of Downtown Santa Monica.</string>
+
+    <!--    FoodFragment Location Names -->
+    <string name="ye_olde_kings_head"> Ye Olde Kings Head </string>
+    <string name="bay_city_deli"> Bay Cities Italian Deli and Bakery </string>
+    <string name="the_independence"> The Independence </string>
+
+    <!--    ShoppingFragment Location Descriptions -->
+    <string name="downtown_santa_monica_description"> The best shopping, dining, and entertainment located next to the beach. </string>
+    <string name="santa_monica_place_description"> A beautiful outdoor shopping mall containing three levels of stores and restaurants. </string>
+    <string name="pier_gear_description"> Nice little souvenir store near the beach. </string>
+
+    <!--    ShoppingFragment Location Names -->
+    <string name="downtown_santa_monica"> Downtown Santa Monica </string>
+    <string name="santa_monica_place"> Santa Monica Place </string>
+    <string name="pier_gear"> Pier Gear </string>
+
+    <!--    RecreationFragment Location Descriptions -->
+    <string name="pacific_park_description"> Located at the Pier, relax with fames, food, and a little shopping. </string>
+    <string name="heal_the_bay_description"> Featuring 100+ local marine animals and wildlife species, located at the Pier. </string>
+    <string name="the_wende_museum_description"> A museum documenting the Cold War with historical archieves, items, and  art. </string>
+
+    <!--    RecreationFragment Location Names -->
+    <string name="pacific_park"> Pacific Park </string>
+    <string name="heal_the_bay"> Heal the Bay Aquarium </string>
+    <string name="the_wende_museum"> The Wende Museum </string>
+
+
 </resources>

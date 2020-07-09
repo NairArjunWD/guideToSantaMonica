@@ -32,9 +32,9 @@ public class FoodFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word("Country style British pub that serves all the local favorites from the UK.", "Ye Olde King's Head", R.drawable.ye_olde_kings_head));
-        words.add(new Word("Best local deli known for their signature overstuffed sandwiches and other deli favorites.", "Bay Cities Italian Deli & Bakery", R.drawable.bay_city_deli));
-        words.add(new Word("Stylish bar in the middle of Downtown Santa Monica.", "The Independence", R.drawable.the_independence));
+        words.add(new Word(getResources().getString(R.string.ye_olde_kings_head_description), getResources().getString(R.string.ye_olde_kings_head) , R.drawable.ye_olde_kings_head));
+        words.add(new Word(getResources().getString(R.string.bay_city_deli_description), getResources().getString(R.string.bay_city_deli), R.drawable.bay_city_deli));
+        words.add(new Word(getResources().getString(R.string.the_independence_description), getResources().getString(R.string.the_independence), R.drawable.the_independence));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_food);
 

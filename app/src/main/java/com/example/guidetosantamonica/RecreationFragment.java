@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link RecreationFragment#newInstance} factory method to
+ * Use the {@link RecreationFragment newInstance} factory method to
  * create an instance of this fragment.
  */
 public class RecreationFragment extends Fragment {
@@ -31,9 +31,9 @@ public class RecreationFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word("Located at the Pier, relax with fames, food, and a little shopping.", "Pacific Park", R.drawable.pacific_park));
-        words.add(new Word("Featuring 100+ local marine animals and wildlife species, located at the Pier.", "Heal the Bay Aquarium", R.drawable.heal_the_bay));
-        words.add(new Word("A museum documenting the Cold War with historical archieves, items, and  art.", "The Wende Museum", R.drawable.the_wende_museum));
+        words.add(new Word(getResources().getString(R.string.pacific_park_description), getResources().getString(R.string.pacific_park), R.drawable.pacific_park));
+        words.add(new Word(getResources().getString(R.string.heal_the_bay_description), getResources().getString(R.string.heal_the_bay), R.drawable.heal_the_bay));
+        words.add(new Word( getResources().getString(R.string.the_wende_museum_description), getResources().getString(R.string.the_wende_museum), R.drawable.the_wende_museum));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_recreation);
 

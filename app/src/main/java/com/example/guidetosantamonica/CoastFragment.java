@@ -30,13 +30,14 @@ public class CoastFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
+
         //Create an array of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
 //        words.add("one");
-        words.add(new Word("An old wharf that has shops, restaurants, and rides, which include both a rollercoaster and a ferris wheel.", "Santa Monica Pier", R.drawable.santa_monica_pier));
-        words.add(new Word("One of the most iconic beaches of SoCal stretching 3.5 miles.", "Santa Monica State Beach", R.drawable.santa_monica_state_beach));
-        words.add(new Word("A nice relaxing park located next to the coast where you can stroll and sit under the shade.", "Palisades Park", R.drawable.palisades_park));
+        words.add(new Word(getResources().getString(R.string.santa_monica_pier_description), getResources().getString(R.string.santa_monica_pier), R.drawable.santa_monica_pier));
+        words.add(new Word(getResources().getString(R.string.santa_monica_state_beach_description), getResources().getString(R.string.santa_monica_state_beach), R.drawable.santa_monica_state_beach));
+        words.add(new Word(getResources().getString(R.string.palisades_park_description), getResources().getString(R.string.palisades_park), R.drawable.palisades_park));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_coast);
 
