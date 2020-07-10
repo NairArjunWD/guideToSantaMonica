@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">Guide to Santa Monica</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <!-- Category name for coast [CHAR LIMIT=20] -->
     <string name="category_coast">Coast</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <!-- Category name for the vocabulary words for food [CHAR LIMIT=20] -->
     <string name="category_food">Food</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <!-- Category name for the vocabulary words for shopping [CHAR LIMIT=20] -->
     <string name="category_shopping">Shopping</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_recreation">Recreation</string>
+    <!-- Category name for the vocabulary words for recreation [CHAR LIMIT=20] -->
+    <string name="category_recreation">Fun</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

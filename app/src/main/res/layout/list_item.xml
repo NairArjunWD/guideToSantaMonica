@@ -47,7 +47,6 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_gravity="end|center_vertical"
                 android:layout_weight="0.1"
                 android:src="@drawable/baseline_map_white_24dp" />
