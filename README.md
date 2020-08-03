@@ -16,6 +16,9 @@ The app shows a thumbnail and summary of the location.
 
 ## To Do
 
-Open maps when you click the maps Icon
+ - Open maps when you click the maps Icon
 
 <img src="https://drive.google.com/uc?export=view&id=17KtUD_Xd3MmbzF7IsBHbyjk1jfmaZdQb" height="500">
+
+ - Show a time schedule
+ - Show the address as a toast when tolding the map icon instead of clicking it
